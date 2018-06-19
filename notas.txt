@@ -1,0 +1,36 @@
+index
+contact
+about us
+news
+
+-------------------
+
+messages
+->id
+->chat_id
+->transmitter_id
+->receiver_id
+->text->string(1024)
+->created_at
+
+-------------------
+
+chats
+->id
+->user1_id
+->user2_id
+->created_at
+
+transmitted AUTH
+received OTHER
+
+-------------------
+
+
+-------------------
+
+games table
+user configs table
+
+ROJOS TRANSMITTED
+VERDES RECEIVED
